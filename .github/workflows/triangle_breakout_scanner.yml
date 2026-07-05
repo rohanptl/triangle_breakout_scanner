@@ -1,0 +1,198 @@
+name: Triangle Breakout Scanner
+
+on:
+  # Runs after the US market close, with enough delay for daily OHLCV data to update.
+  # 01:00 UTC Tue-Sat = previous US trading day evening.
+  schedule:
+    - cron: "0 1 * * 2-6"
+
+  # Allows manual runs from the GitHub Actions tab.
+  workflow_dispatch:
+    inputs:
+      min_etf_score:
+        description: "Minimum ETF score"
+        required: false
+        default: "70"
+      min_stock_score:
+        description: "Minimum stock score"
+        required: false
+        default: "75"
+      period:
+        description: "Historical lookback period"
+        required: false
+        default: "5y"
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    name: Run triangle breakout scanner
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set run parameters
+        id: params
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "ETF_MIN_SCORE=${{ github.event.inputs.min_etf_score }}" >> "$GITHUB_ENV"
+            echo "STOCK_MIN_SCORE=${{ github.event.inputs.min_stock_score }}" >> "$GITHUB_ENV"
+            echo "PERIOD=${{ github.event.inputs.period }}" >> "$GITHUB_ENV"
+          else
+            echo "ETF_MIN_SCORE=70" >> "$GITHUB_ENV"
+            echo "STOCK_MIN_SCORE=75" >> "$GITHUB_ENV"
+            echo "PERIOD=5y" >> "$GITHUB_ENV"
+          fi
+
+          echo "RUN_DATE=$(date -u +%Y-%m-%d)" >> "$GITHUB_ENV"
+          echo "RUN_TS=$(date -u +%Y%m%d_%H%M%S)" >> "$GITHUB_ENV"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy openpyxl
+
+      - name: Verify required files
+        shell: bash
+        run: |
+          test -f triangle_breakout_scanner_v2.py
+          test -f ticker_universe_etfs_only.csv
+          test -f ticker_universe_stocks_only.csv
+
+      - name: Create output directory
+        run: mkdir -p outputs
+
+      - name: Run ETF scan
+        run: |
+          python triangle_breakout_scanner_v2.py \
+            --universe-file ticker_universe_etfs_only.csv \
+            --period "$PERIOD" \
+            --output "outputs/etf_triangle_scan_${RUN_TS}.csv" \
+            --min-score "$ETF_MIN_SCORE" \
+            --min-avg-dollar-volume-m 5 \
+            --consolidation-days 252 \
+            --breakout-lookback-days 10 \
+            --resistance-zone-pct 3 \
+            --min-touch-count 3 \
+            --max-resistance-flatness-pct 5 \
+            --breakout-buffer-pct 0.5 \
+            --volume-expansion-min 1.3 \
+            --swing-order 5 \
+            --max-breakout-extension-pct 8 \
+            --sleep 0.35 \
+            --retry-attempts 4
+
+      - name: Run stock scan
+        run: |
+          python triangle_breakout_scanner_v2.py \
+            --universe-file ticker_universe_stocks_only.csv \
+            --period "$PERIOD" \
+            --output "outputs/stock_triangle_scan_${RUN_TS}.csv" \
+            --min-score "$STOCK_MIN_SCORE" \
+            --min-avg-dollar-volume-m 25 \
+            --consolidation-days 252 \
+            --breakout-lookback-days 10 \
+            --resistance-zone-pct 3 \
+            --min-touch-count 3 \
+            --max-resistance-flatness-pct 5 \
+            --breakout-buffer-pct 0.5 \
+            --volume-expansion-min 1.5 \
+            --swing-order 5 \
+            --max-breakout-extension-pct 8 \
+            --sleep 0.35 \
+            --retry-attempts 4
+
+      - name: Create latest copies
+        shell: bash
+        run: |
+          cp outputs/etf_triangle_scan_${RUN_TS}.csv outputs/etf_triangle_scan_latest.csv
+          cp outputs/etf_triangle_scan_${RUN_TS}_filtered.csv outputs/etf_triangle_scan_latest_filtered.csv
+          cp outputs/stock_triangle_scan_${RUN_TS}.csv outputs/stock_triangle_scan_latest.csv
+          cp outputs/stock_triangle_scan_${RUN_TS}_filtered.csv outputs/stock_triangle_scan_latest_filtered.csv
+
+      - name: Create markdown summary
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import pandas as pd
+          import os
+
+          run_date = os.environ.get("RUN_DATE", "")
+          run_ts = os.environ.get("RUN_TS", "")
+
+          etf_path = Path(f"outputs/etf_triangle_scan_{run_ts}_filtered.csv")
+          stock_path = Path(f"outputs/stock_triangle_scan_{run_ts}_filtered.csv")
+
+          def section(title, path):
+              if not path.exists() or path.stat().st_size == 0:
+                  return f"## {title}\n\nNo filtered candidates file was generated.\n"
+
+              df = pd.read_csv(path)
+              if df.empty:
+                  return f"## {title}\n\nNo candidates met the score threshold.\n"
+
+              cols = [
+                  "ticker",
+                  "setup_state",
+                  "score",
+                  "last_close",
+                  "resistance",
+                  "breakout_pct",
+                  "pivot_touch_count",
+                  "bb_width_pctile",
+                  "breakout_volume_ratio",
+                  "volume_confirmed",
+              ]
+              existing_cols = [c for c in cols if c in df.columns]
+              top = df[existing_cols].head(20)
+              return f"## {title}\n\n" + top.to_markdown(index=False) + "\n"
+
+          summary = f"# Triangle Breakout Scan - {run_date}\n\n"
+          summary += section("Top ETF Candidates", etf_path)
+          summary += "\n"
+          summary += section("Top Stock Candidates", stock_path)
+          summary += "\nGenerated by GitHub Actions.\n"
+
+          Path("outputs/triangle_scan_summary.md").write_text(summary, encoding="utf-8")
+          PY
+
+      - name: Upload scan artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: triangle-breakout-scan-${{ env.RUN_TS }}
+          path: |
+            outputs/*.csv
+            outputs/*.md
+          retention-days: 30
+
+      - name: Commit latest scan outputs
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        shell: bash
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add outputs/etf_triangle_scan_latest.csv \
+                  outputs/etf_triangle_scan_latest_filtered.csv \
+                  outputs/stock_triangle_scan_latest.csv \
+                  outputs/stock_triangle_scan_latest_filtered.csv \
+                  outputs/triangle_scan_summary.md
+
+          if git diff --cached --quiet; then
+            echo "No output changes to commit."
+          else
+            git commit -m "Update triangle breakout scan outputs for ${RUN_DATE}"
+            git push
+          fi
