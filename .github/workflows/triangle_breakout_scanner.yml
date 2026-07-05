@@ -6,7 +6,6 @@ on:
   schedule:
     - cron: "0 1 * * 2-6"
 
-  # Allows manual runs from the GitHub Actions tab.
   workflow_dispatch:
     inputs:
       min_etf_score:
@@ -36,7 +35,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set run parameters
-        id: params
         shell: bash
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -56,12 +54,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
       - name: Install dependencies
+        shell: bash
         run: |
           python -m pip install --upgrade pip
-          pip install yfinance pandas numpy openpyxl
+
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "requirements.txt not found. Installing required packages directly."
+            pip install yfinance pandas numpy openpyxl tabulate
+          fi
 
       - name: Verify required files
         shell: bash
@@ -74,6 +78,7 @@ jobs:
         run: mkdir -p outputs
 
       - name: Run ETF scan
+        shell: bash
         run: |
           python triangle_breakout_scanner_v2.py \
             --universe-file ticker_universe_etfs_only.csv \
@@ -94,6 +99,7 @@ jobs:
             --retry-attempts 4
 
       - name: Run stock scan
+        shell: bash
         run: |
           python triangle_breakout_scanner_v2.py \
             --universe-file ticker_universe_stocks_only.csv \
@@ -116,18 +122,18 @@ jobs:
       - name: Create latest copies
         shell: bash
         run: |
-          cp outputs/etf_triangle_scan_${RUN_TS}.csv outputs/etf_triangle_scan_latest.csv
-          cp outputs/etf_triangle_scan_${RUN_TS}_filtered.csv outputs/etf_triangle_scan_latest_filtered.csv
-          cp outputs/stock_triangle_scan_${RUN_TS}.csv outputs/stock_triangle_scan_latest.csv
-          cp outputs/stock_triangle_scan_${RUN_TS}_filtered.csv outputs/stock_triangle_scan_latest_filtered.csv
+          cp "outputs/etf_triangle_scan_${RUN_TS}.csv" outputs/etf_triangle_scan_latest.csv
+          cp "outputs/etf_triangle_scan_${RUN_TS}_filtered.csv" outputs/etf_triangle_scan_latest_filtered.csv
+          cp "outputs/stock_triangle_scan_${RUN_TS}.csv" outputs/stock_triangle_scan_latest.csv
+          cp "outputs/stock_triangle_scan_${RUN_TS}_filtered.csv" outputs/stock_triangle_scan_latest_filtered.csv
 
       - name: Create markdown summary
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          import pandas as pd
           import os
+          import pandas as pd
 
           run_date = os.environ.get("RUN_DATE", "")
           run_ts = os.environ.get("RUN_TS", "")
@@ -156,8 +162,7 @@ jobs:
                   "volume_confirmed",
               ]
               existing_cols = [c for c in cols if c in df.columns]
-              top = df[existing_cols].head(20)
-              return f"## {title}\n\n" + top.to_markdown(index=False) + "\n"
+              return f"## {title}\n\n" + df[existing_cols].head(20).to_markdown(index=False) + "\n"
 
           summary = f"# Triangle Breakout Scan - {run_date}\n\n"
           summary += section("Top ETF Candidates", etf_path)
@@ -178,7 +183,6 @@ jobs:
           retention-days: 30
 
       - name: Commit latest scan outputs
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         shell: bash
         run: |
           git config user.name "github-actions"
