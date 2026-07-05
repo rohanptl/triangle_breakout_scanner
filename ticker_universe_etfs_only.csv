@@ -1,0 +1,148 @@
+ticker,asset_type,bucket,reason
+SPY,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+VOO,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+IVV,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+VTI,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+QQQ,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+QQQM,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+DIA,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+IWM,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+MDY,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+RSP,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+SPLG,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+SCHX,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+SCHG,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+VUG,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+IWF,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+VTV,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+IWD,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+IJR,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+IJS,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+VB,ETF,Core index / style ETFs,Broad market and style leadership; useful for spotting major rotation and breakout bases
+XLB,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLC,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLE,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLF,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLI,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLK,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLP,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLRE,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLU,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLV,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+XLY,ETF,SPDR sector ETFs,All 11 major S&P sector ETFs; good first-pass sector breakout screen
+IAK,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+KIE,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+IAT,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+KRE,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+KBE,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+KBWB,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+KBWR,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+IAI,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+KCE,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+IYF,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+VFH,ETF,Financials / insurance / banks,IAK-style sector/industry breakout candidates
+SMH,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+SOXX,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+SOXQ,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+PSI,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+IGV,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+SKYY,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+CIBR,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+HACK,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+WCLD,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+FDN,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+ARKK,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+BOTZ,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+ROBO,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+AIQ,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+CHAT,ETF,Tech / semis / software / AI,High-momentum industries where consolidation breakouts can produce strong follow-through
+ITA,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+XAR,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+PAVE,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+IFRA,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+GRID,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+IYT,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+XTN,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+JETS,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+XHB,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+ITB,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+PKB,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+HOMZ,ETF,Industrials / defense / infrastructure / housing,Cyclical sectors often form multi-month bases before breakouts
+IBB,ETF,Healthcare / biotech / devices,Mean-reversion and breakout candidates; useful because healthcare often rotates separately from tech
+XBI,ETF,Healthcare / biotech / devices,Mean-reversion and breakout candidates; useful because healthcare often rotates separately from tech
+IHI,ETF,Healthcare / biotech / devices,Mean-reversion and breakout candidates; useful because healthcare often rotates separately from tech
+IHF,ETF,Healthcare / biotech / devices,Mean-reversion and breakout candidates; useful because healthcare often rotates separately from tech
+VHT,ETF,Healthcare / biotech / devices,Mean-reversion and breakout candidates; useful because healthcare often rotates separately from tech
+PPH,ETF,Healthcare / biotech / devices,Mean-reversion and breakout candidates; useful because healthcare often rotates separately from tech
+XME,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+PICK,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+COPX,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+SLX,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+URA,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+URNM,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+GDX,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+GDXJ,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+GLD,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+SLV,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+DBC,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+DBA,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+USO,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+UNG,ETF,Materials / commodities / miners,Commodity and miner ETFs often form ascending bases after long consolidations
+XRT,ETF,Consumer / retail,Consumer rotation and retail breakouts
+IBUY,ETF,Consumer / retail,Consumer rotation and retail breakouts
+ONLN,ETF,Consumer / retail,Consumer rotation and retail breakouts
+VCR,ETF,Consumer / retail,Consumer rotation and retail breakouts
+PEJ,ETF,Consumer / retail,Consumer rotation and retail breakouts
+AMLP,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+MLPA,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+XOP,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+OIH,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+VDE,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+TAN,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+ICLN,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+QCLN,ETF,Energy / MLP / clean energy,Energy and clean-energy groups can produce sharp breakouts after compression
+MTUM,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+JMOM,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+QUAL,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+JQUA,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+COWZ,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+CALF,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+MOAT,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+SCHD,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+VIG,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+DGRO,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+DGRW,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+JEPI,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+JEPQ,ETF,Factor / quality / dividend / income,"Useful to detect leadership among quality, momentum, dividend, and income themes"
+EFA,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EEM,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+VEA,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+VWO,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+ACWX,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+INDA,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+FLIN,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWJ,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWY,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWT,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWZ,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWW,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWC,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWA,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWU,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWG,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWQ,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWL,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+EWI,ETF,International / country ETFs,Country ETFs frequently show clean base breakouts when global leadership rotates
+TLT,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+IEF,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+VGIT,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+SHY,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+SGOV,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+BIL,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+HYG,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+LQD,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+TIP,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+AGG,ETF,Rates / bonds / cash proxies,Include for regime awareness and rotation; some bond ETFs also break out from long bases
+IBIT,ETF,Crypto-linked ETFs,High-beta liquidity and trend confirmation; use separate risk rules
+ETHA,ETF,Crypto-linked ETFs,High-beta liquidity and trend confirmation; use separate risk rules
+BITO,ETF,Crypto-linked ETFs,High-beta liquidity and trend confirmation; use separate risk rules

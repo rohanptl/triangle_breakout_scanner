@@ -1,0 +1,173 @@
+ticker,asset_type,bucket,reason
+BRK-B,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+CB,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+PGR,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+TRV,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+ALL,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+AIG,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+MET,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+PRU,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+HIG,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+ACGL,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+AJG,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+AON,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+MMC,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+BRO,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+CINF,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+AFL,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+WRB,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+RNR,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+EG,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+CNA,Stock,Insurance / brokers / reinsurance,Underlying stocks that may confirm IAK/KIE breakouts
+JPM,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+BAC,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+WFC,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+C,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+GS,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+MS,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+SCHW,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+BLK,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+BX,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+KKR,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+COF,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+AXP,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+V,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+MA,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+PYPL,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+SQ,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+SOFI,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+HOOD,Stock,Financials / payments / brokers,"Sector confirmation and liquid candidates for CSPs, shares, or options if breakouts form"
+AAPL,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+MSFT,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+NVDA,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+AMZN,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+META,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+GOOGL,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+GOOG,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+AVGO,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+TSLA,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+ORCL,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+CRM,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+ADBE,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+NOW,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+INTU,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+NFLX,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+COST,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+WMT,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+HD,Stock,Mega-cap liquid leaders,"High-liquidity stocks suitable for shares, CSPs, covered calls, diagonals, or LEAPS"
+AMD,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+MU,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+MRVL,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+QCOM,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+AMAT,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+LRCX,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+KLAC,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+TXN,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+ADI,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+INTC,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+WDC,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+SNDK,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+ASML,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+TSM,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+ARM,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+DELL,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+HPE,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+SMCI,Stock,Semis / hardware / AI infrastructure,Matches your AI infrastructure and memory-supercycle watchlist
+PLTR,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+UBER,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+MELI,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+SE,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+GRAB,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+SHOP,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+DDOG,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+SNOW,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+NET,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+CRWD,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+PANW,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+ZS,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+MDB,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+TEAM,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+TTD,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+APP,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+RBLX,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+ROKU,Stock,Growth software / internet / platforms,High-beta growth names that can produce strong base breakouts
+LLY,Stock,Healthcare leaders,Defensive growth and rotation candidates
+UNH,Stock,Healthcare leaders,Defensive growth and rotation candidates
+JNJ,Stock,Healthcare leaders,Defensive growth and rotation candidates
+ABBV,Stock,Healthcare leaders,Defensive growth and rotation candidates
+MRK,Stock,Healthcare leaders,Defensive growth and rotation candidates
+TMO,Stock,Healthcare leaders,Defensive growth and rotation candidates
+ISRG,Stock,Healthcare leaders,Defensive growth and rotation candidates
+ABT,Stock,Healthcare leaders,Defensive growth and rotation candidates
+DHR,Stock,Healthcare leaders,Defensive growth and rotation candidates
+AMGN,Stock,Healthcare leaders,Defensive growth and rotation candidates
+GILD,Stock,Healthcare leaders,Defensive growth and rotation candidates
+REGN,Stock,Healthcare leaders,Defensive growth and rotation candidates
+VRTX,Stock,Healthcare leaders,Defensive growth and rotation candidates
+ELV,Stock,Healthcare leaders,Defensive growth and rotation candidates
+CI,Stock,Healthcare leaders,Defensive growth and rotation candidates
+HCA,Stock,Healthcare leaders,Defensive growth and rotation candidates
+SYK,Stock,Healthcare leaders,Defensive growth and rotation candidates
+XOM,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+CVX,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+COP,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+EOG,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+SLB,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+HAL,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+VLO,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+MPC,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+OKE,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+KMI,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+ET,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+EPD,Stock,Energy / pipelines / services,Energy leadership and yield-sector breakouts
+CAT,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+DE,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+GE,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+HON,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+ETN,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+EMR,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+PH,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+ITW,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+URI,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+LMT,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+RTX,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+NOC,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+GD,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+BA,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+HEI,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+TDG,Stock,Industrials / defense / machinery,Often form clean multi-quarter consolidations before continuation moves
+FCX,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+NUE,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+STLD,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+CLF,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+AA,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+SCCO,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+TECK,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+CCJ,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+NEM,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+GOLD,Stock,Materials / metals / miners,Commodity beta and metals/miners breakout candidates
+LOW,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+TGT,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+NKE,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+SBUX,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+MCD,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+CMG,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+BKNG,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+MAR,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+RCL,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+CCL,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+DKNG,Stock,Consumer discretionary / travel / retail,Useful for rotation scans after long consolidations or failed breakdown recoveries
+NBIS,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+LITE,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+AAOI,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+BKSY,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+SPIR,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+ACHR,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+SATL,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+VIAV,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+OUST,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+GILT,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+POET,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+ARQQ,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+RKLB,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
+ASTS,Stock,Speculative AI / optical / space watchlist,Higher-risk names from your watchlist; use liquidity and position-size filters
