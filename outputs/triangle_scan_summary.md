@@ -1,40 +1,41 @@
-# Triangle Breakout Scan - 2026-07-29
+# Triangle Breakout Scan - 2026-07-30
 
 ## Top ETF Candidates
 
 | ticker   | setup_state        |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
 |:---------|:-------------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
-| RSP      | fresh_breakout     |      98 |       215.18 |       203.58 |           5.7  |                   5 |               2.4 |                    0.89 | False              |
-| EWI      | fresh_breakout     |      98 |        60.77 |        58.03 |           4.73 |                   5 |              20.6 |                    0.53 | False              |
-| MDY      | fresh_breakout     |      98 |       692.85 |       688.32 |           0.66 |                   5 |               6.7 |                    0.82 | False              |
-| EFA      | fresh_breakout     |      98 |       103.91 |       103.74 |           0.17 |                   6 |               2.4 |                    0.53 | False              |
-| VTV      | fresh_breakout     |      94 |       221.72 |       205.84 |           7.71 |                   4 |               2.8 |                    1.16 | False              |
-| VIG      | fresh_breakout     |      94 |       239.89 |       229.82 |           4.38 |                   4 |               3.2 |                    0.82 | False              |
-| SCHX     | fresh_breakout     |      93 |        29.16 |        27.35 |           6.62 |                   4 |               4.8 |                    1.63 | True               |
-| EWU      | fresh_breakout     |      93 |        47.37 |        47.02 |           0.75 |                   5 |              29.8 |                    0.32 | False              |
-| IAT      | fresh_breakout     |      91 |        63.47 |        58.78 |           7.98 |                   5 |              11.9 |                    0.86 | False              |
-| DIA      | fresh_breakout     |      91 |       521.26 |       495.16 |           5.27 |                   5 |               8.3 |                    0.75 | False              |
-| DGRO     | fresh_breakout     |      90 |        78.2  |        73.39 |           6.55 |                   5 |              46.8 |                    0.82 | False              |
-| IJS      | fresh_breakout     |      90 |       136.2  |       128.31 |           6.15 |                   3 |               5.2 |                    0.6  | False              |
-| XLRE     | fresh_breakout     |      90 |        45.76 |        44.52 |           2.79 |                   7 |              45.6 |                    0.82 | False              |
-| EWC      | fresh_breakout     |      90 |        59.39 |        58.52 |           1.48 |                   7 |              50.8 |                    0.55 | False              |
-| QUAL     | testing_resistance |      90 |       217.26 |       219.82 |          -1.16 |                   3 |              14.3 |                  nan    | False              |
-| HYG      | testing_resistance |      88 |        79.27 |        79.51 |          -0.3  |                   6 |              21.8 |                  nan    | False              |
-| KRE      | fresh_breakout     |      87 |        75.52 |        70.62 |           6.94 |                   4 |              12.7 |                    0.74 | False              |
-| KBE      | fresh_breakout     |      87 |        69.22 |        64.96 |           6.56 |                   4 |              14.3 |                    0.54 | False              |
-| IYT      | fresh_breakout     |      87 |        87.18 |        82.42 |           5.77 |                   4 |               7.5 |                    0.53 | False              |
-| IFRA     | fresh_breakout     |      87 |        61.89 |        60.35 |           2.56 |                   4 |              34.9 |                    0.55 | False              |
+| KBWB     | fresh_breakout     |     100 |        94.43 |        87.68 |           7.7  |                   4 |               6.7 |                    1.52 | True               |
+| XLP      | fresh_breakout     |     100 |        87.36 |        85.75 |           1.87 |                   5 |              63.5 |                    1.9  | True               |
+| KRE      | fresh_breakout     |      99 |        76.18 |        70.72 |           7.72 |                   3 |              14.3 |                    1.42 | True               |
+| RSP      | fresh_breakout     |      98 |       215.73 |       203.58 |           5.97 |                   5 |              12.3 |                    0.71 | False              |
+| VIG      | fresh_breakout     |      98 |       238.56 |       228.66 |           4.33 |                   5 |               3.6 |                    0.87 | False              |
+| EWI      | fresh_breakout     |      98 |        60.09 |        58.03 |           3.56 |                   5 |               0.8 |                    1.04 | False              |
+| XLU      | testing_resistance |      96 |        44.91 |        45.35 |          -0.97 |                   5 |              15.5 |                    0.9  | False              |
+| VTV      | fresh_breakout     |      94 |       219.8  |       205.84 |           6.78 |                   4 |              11.1 |                    0.81 | False              |
+| EFA      | testing_resistance |      91 |       103.37 |       104.08 |          -0.68 |                   6 |               1.2 |                  nan    | False              |
+| EWQ      | testing_resistance |      91 |        45.51 |        46.1  |          -1.28 |                   7 |              10.3 |                  nan    | False              |
+| IJS      | fresh_breakout     |      90 |       135.86 |       128.31 |           5.88 |                   3 |               5.2 |                    0.48 | False              |
+| XLRE     | fresh_breakout     |      90 |        45.96 |        44.52 |           3.23 |                   7 |              67.5 |                    0.82 | False              |
+| EWC      | fresh_breakout     |      90 |        59.29 |        58.52 |           1.31 |                   7 |              44   |                    0.89 | False              |
+| EWU      | fresh_breakout     |      90 |        47.9  |        47.29 |           1.28 |                   6 |              39.3 |                    0.81 | False              |
+| IAT      | fresh_breakout     |      87 |        63.49 |        58.81 |           7.96 |                   4 |               8.7 |                    1.25 | False              |
+| IYT      | fresh_breakout     |      87 |        85.76 |        82.42 |           4.05 |                   4 |              14.3 |                    1.05 | False              |
+| DIA      | fresh_breakout     |      87 |       515.41 |       495.88 |           3.94 |                   4 |              17.5 |                    0.66 | False              |
+| EWL      | fresh_breakout     |      87 |        62.79 |        61.71 |           1.75 |                   4 |               7.1 |                    0.52 | False              |
+| SCHD     | fresh_breakout     |      86 |        33.83 |        31.4  |           7.75 |                   4 |              86.5 |                    1.2  | False              |
+| DGRO     | fresh_breakout     |      86 |        78.27 |        73.5  |           6.49 |                   4 |              50.4 |                    0.9  | False              |
 
 ## Top Stock Candidates
 
 | ticker   | setup_state        |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
 |:---------|:-------------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
-| AFL      | fresh_breakout     |      90 |       126.56 |       118.08 |           7.18 |                   5 |              65.9 |                    0.63 | False              |
-| EMR      | fresh_breakout     |      87 |       149.3  |       148.38 |           0.62 |                   4 |              30.2 |                    1.04 | False              |
-| MAR      | fresh_breakout     |      83 |       383.06 |       364.28 |           5.16 |                   3 |              20.2 |                    0.73 | False              |
-| ET       | fresh_breakout     |      83 |        19.91 |        19.31 |           3.11 |                   5 |              83.7 |                    0.53 | False              |
-| EPD      | fresh_breakout     |      77 |        38.12 |        37.87 |           0.67 |                   4 |              82.5 |                    1.05 | False              |
-| SLB      | testing_resistance |      77 |        51.53 |        52.18 |          -1.24 |                   3 |              61.5 |                  nan    | False              |
-| TECK     | testing_resistance |      75 |        59.75 |        60.56 |          -1.34 |                   3 |              18.3 |                  nan    | False              |
+| ET       | fresh_breakout     |      83 |        20.2  |        19.31 |           4.61 |                   5 |              67.9 |                    0.85 | False              |
+| MAR      | testing_resistance |      83 |       381.12 |       383.99 |          -0.75 |                   3 |              29.8 |                  nan    | False              |
+| ELV      | fresh_breakout     |      81 |       375.98 |       359.31 |           4.64 |                   3 |              77   |                    1.68 | True               |
+| CI       | testing_resistance |      81 |       296.47 |       300.43 |          -1.32 |                   8 |              49.6 |                  nan    | False              |
+| EPD      | fresh_breakout     |      79 |        38.67 |        37.87 |           2.12 |                   4 |              72.2 |                    1.29 | False              |
+| OKE      | testing_resistance |      79 |        90    |        90.96 |          -1.06 |                   4 |              40.5 |                    0.79 | False              |
+| EMR      | near_resistance    |      78 |       145.73 |       148.38 |          -1.79 |                   4 |              75   |                    1.04 | False              |
+| PH       | below_resistance   |      76 |       951.07 |      1026.68 |          -7.36 |                   3 |              17.5 |                  nan    | False              |
 
 Generated by GitHub Actions.
