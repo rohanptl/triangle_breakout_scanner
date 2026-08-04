@@ -1,4 +1,4 @@
-# Triangle Breakout Scan - 2026-08-01
+# Triangle Breakout Scan - 2026-08-04
 
 ## Top ETF Candidates
 
