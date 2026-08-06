@@ -18,7 +18,7 @@
 | ITA      | fresh_breakout     |      90 |       252.28 |       246    |           2.55 |                   5 |              76.2 |                    0.72 | False              |
 | JEPI     | fresh_breakout     |      90 |        57.51 |        56.5  |           1.79 |                   6 |              67.1 |                    0.95 | False              |
 | VEA      | fresh_breakout     |      90 |        72.35 |        71.92 |           0.6  |                   5 |              36.5 |                    0.56 | False              |
-| HYG      | testing_resistance |      90 |        79.52 |        79.18 |           0.43 |                   7 |              48   |                  nan    | False              |
+| HYG      | testing_resistance |      90 |        79.52 |        79.19 |           0.42 |                   6 |              48   |                  nan    | False              |
 | VWO      | testing_resistance |      88 |        60.01 |        60.15 |          -0.23 |                   7 |              53.6 |                  nan    | False              |
 | RSP      | fresh_breakout     |      86 |       219.73 |       203.98 |           7.72 |                   4 |              59.9 |                    0.73 | False              |
 | DGRW     | fresh_breakout     |      86 |        99.34 |        93.25 |           6.53 |                   4 |              84.5 |                    0.82 | False              |
@@ -31,7 +31,7 @@
 |:---------|:-------------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
 | ET       | fresh_breakout     |      98 |        20.34 |        19.31 |           5.33 |                   5 |              18.3 |                    0.78 | False              |
 | ETN      | fresh_breakout     |      91 |       447.28 |       427.93 |           4.52 |                   4 |              88.9 |                    1.47 | False              |
-| BA       | fresh_breakout     |      88 |       240.19 |       237.9  |           0.96 |                   6 |              73.8 |                    1.04 | False              |
+| BA       | fresh_breakout     |      88 |       240.19 |       237.9  |           0.96 |                   6 |              73.8 |                    1.06 | False              |
 | HEI      | fresh_breakout     |      87 |       366.8  |       354.57 |           3.45 |                   3 |              45.6 |                    0.64 | False              |
 | AVGO     | fresh_breakout     |      84 |       418.28 |       409.91 |           2.04 |                   4 |              47.6 |                    1.07 | False              |
 | ABBV     | fresh_breakout     |      83 |       246.2  |       232.58 |           5.86 |                   6 |              65.1 |                    0.66 | False              |
