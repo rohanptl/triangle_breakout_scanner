@@ -1,4 +1,4 @@
-# Triangle Breakout Scan - 2026-09-05
+# Triangle Breakout Scan - 2026-09-08
 
 ## Top ETF Candidates
 
@@ -18,7 +18,7 @@
 | EWA      | fresh_breakout |      98 |        30.23 |        29.82 |           1.37 |                   5 |               4.4 |                    0.83 | False              |
 | EWU      | fresh_breakout |      98 |        48.59 |        47.96 |           1.32 |                   5 |               3.2 |                    0.33 | False              |
 | VWO      | fresh_breakout |      98 |        61.44 |        60.65 |           1.3  |                   7 |               2.8 |                    0.6  | False              |
-| HYG      | fresh_breakout |      98 |        79.16 |        78.87 |           0.36 |                   6 |              16.7 |                    0.94 | False              |
+| HYG      | fresh_breakout |      98 |        79.16 |        78.77 |           0.5  |                   7 |              16.7 |                    0.65 | False              |
 | RSP      | fresh_breakout |      94 |       219    |       204.56 |           7.06 |                   4 |              12.7 |                    0.56 | False              |
 | XLF      | fresh_breakout |      94 |        58.1  |        54.31 |           6.98 |                   4 |              11.5 |                    0.95 | False              |
 | MLPA     | fresh_breakout |      94 |        57.2  |        53.67 |           6.58 |                   4 |              17.9 |                    0.71 | False              |
