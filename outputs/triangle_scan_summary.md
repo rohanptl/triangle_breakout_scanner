@@ -1,4 +1,4 @@
-# Triangle Breakout Scan - 2026-09-22
+# Triangle Breakout Scan - 2026-09-23
 
 ## Top ETF Candidates
 
@@ -9,7 +9,7 @@
 | VWO      | fresh_breakout     |     100 |        61.14 |        60.53 |           1    |                   7 |              21   |                    1.48 | True               |
 | EWJ      | fresh_breakout     |      98 |        97.96 |        93.76 |           4.48 |                   5 |              12.3 |                    0.56 | False              |
 | VDE      | fresh_breakout     |      98 |       176.11 |       169.9  |           3.66 |                   4 |              29   |                    1.4  | True               |
-| JQUA     | fresh_breakout     |      98 |        74.67 |        72.12 |           3.54 |                   3 |              45.6 |                    1.62 | True               |
+| JQUA     | fresh_breakout     |      98 |        74.49 |        71.94 |           3.54 |                   3 |              45.6 |                    1.62 | True               |
 | SCHX     | fresh_breakout     |      98 |        30.54 |        29.83 |           2.38 |                   6 |              12.7 |                    0.98 | False              |
 | VOO      | fresh_breakout     |      98 |       712.78 |       697.12 |           2.25 |                   6 |              12.7 |                    1.27 | False              |
 | SPY      | fresh_breakout     |      98 |       773.5  |       756.57 |           2.24 |                   6 |              13.5 |                    1    | False              |
@@ -17,7 +17,7 @@
 | JEPQ     | fresh_breakout     |      90 |        61.01 |        59.58 |           2.4  |                   3 |              20.6 |                    0.7  | False              |
 | QUAL     | fresh_breakout     |      90 |       222.93 |       219.77 |           1.44 |                   5 |              40.1 |                    1    | False              |
 | DGRW     | fresh_breakout     |      89 |        98.98 |        97.15 |           1.89 |                   4 |              27.8 |                    0.84 | False              |
-| JMOM     | testing_resistance |      87 |        84.04 |        84.94 |          -1.06 |                   4 |              11.9 |                  nan    | False              |
+| JMOM     | testing_resistance |      87 |        83.86 |        84.76 |          -1.06 |                   4 |              11.9 |                  nan    | False              |
 | VEA      | testing_resistance |      86 |        72.3  |        72.67 |          -0.5  |                   5 |              27.8 |                    1.75 | True               |
 | XLK      | fresh_breakout     |      85 |       194.85 |       191.12 |           1.95 |                   3 |              29   |                    1.22 | False              |
 | XOP      | fresh_breakout     |      83 |       184.75 |       179.78 |           2.76 |                   3 |              23.8 |                    0.79 | False              |
