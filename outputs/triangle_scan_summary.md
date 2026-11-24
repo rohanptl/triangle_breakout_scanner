@@ -1,19 +1,26 @@
-# Triangle Breakout Scan - 2026-11-21
+# Triangle Breakout Scan - 2026-11-24
 
 ## Top ETF Candidates
 
-| ticker   | setup_state    |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
-|:---------|:---------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
-| XLP      | fresh_breakout |      76 |        90.46 |        88.2  |           2.56 |                   6 |              71.4 |                    1.29 | False              |
-| PPH      | fresh_breakout |      76 |       114.85 |       112.16 |           2.4  |                   5 |              79.4 |                    0.99 | False              |
+| ticker   | setup_state        |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
+|:---------|:-------------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
+| XLP      | fresh_breakout     |      76 |        90.38 |        88.2  |           2.47 |                   6 |              70.2 |                    0.84 | False              |
+| JEPI     | testing_resistance |      73 |        55.9  |        56.44 |          -0.95 |                   5 |              96.8 |                    1.17 | False              |
+| SCHD     | fresh_breakout     |      72 |        34.39 |        32.43 |           6.04 |                   4 |              82.1 |                    1.19 | False              |
+| PPH      | fresh_breakout     |      72 |       116.12 |       112.63 |           3.1  |                   4 |              75   |                    0.5  | False              |
+| EWL      | near_resistance    |      70 |        62.87 |        64.39 |          -2.36 |                   5 |              71   |                    0.82 | False              |
 
 ## Top Stock Candidates
 
-| ticker   | setup_state        |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
-|:---------|:-------------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
-| PGR      | fresh_breakout     |      91 |       231.39 |       223.39 |           3.58 |                   6 |               9.9 |                    0.87 | False              |
-| AAPL     | testing_resistance |      86 |       342.56 |       345.08 |          -0.73 |                   5 |              27   |                    1.11 | False              |
-| WRB      | fresh_breakout     |      82 |        78.31 |        76.82 |           1.94 |                   3 |              72.2 |                    0.55 | False              |
-| AIG      | testing_resistance |      82 |        79.68 |        80.49 |          -1    |                   4 |              30.2 |                    0.88 | False              |
+| ticker   | setup_state     |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
+|:---------|:----------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
+| PGR      | fresh_breakout  |      91 |       230.36 |       223.39 |           3.12 |                   6 |               8.7 |                    0.97 | False              |
+| AAPL     | fresh_breakout  |      86 |       349.08 |       345.08 |           1.16 |                   5 |              25.4 |                    0.67 | False              |
+| TMO      | fresh_breakout  |      83 |       688.08 |       642.22 |           7.14 |                   3 |              15.5 |                    0.79 | False              |
+| MET      | fresh_breakout  |      83 |        98.72 |        98    |           0.73 |                   5 |              37.7 |                    0.93 | False              |
+| AIG      | fresh_breakout  |      78 |        80.56 |        80.5  |           0.08 |                   3 |              30.6 |                    0.88 | False              |
+| DHR      | near_resistance |      77 |       225.66 |       230.65 |          -2.16 |                   3 |              16.7 |                    0.8  | False              |
+| WRB      | fresh_breakout  |      75 |        77.9  |        76.82 |           1.41 |                   3 |              71   |                    0.55 | False              |
+| VRTX     | fresh_breakout  |      75 |       538.54 |       533.67 |           0.91 |                   3 |              35.3 |                    0.95 | False              |
 
 Generated by GitHub Actions.
