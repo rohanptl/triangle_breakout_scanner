@@ -1,27 +1,28 @@
-# Triangle Breakout Scan - 2026-11-25
+# Triangle Breakout Scan - 2026-11-26
 
 ## Top ETF Candidates
 
 | ticker   | setup_state        |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
 |:---------|:-------------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
-| XLP      | fresh_breakout     |      83 |        91.88 |        88.2  |           4.17 |                   6 |              63.5 |                    1.14 | False              |
-| VIG      | fresh_breakout     |      76 |       242.11 |       237.89 |           1.78 |                   5 |              92.1 |                    0.85 | False              |
-| EWL      | testing_resistance |      76 |        63.55 |        64.39 |          -1.31 |                   5 |              69.8 |                    4.42 | True               |
-| JEPI     | testing_resistance |      73 |        56.03 |        56.44 |          -0.72 |                   5 |              97.6 |                    0.86 | False              |
-| SCHD     | fresh_breakout     |      72 |        34.89 |        32.43 |           7.58 |                   4 |              82.1 |                    1.03 | False              |
-| PPH      | fresh_breakout     |      72 |       120.01 |       112.63 |           6.55 |                   4 |              71   |                    0.69 | False              |
+| XLP      | fresh_breakout     |      83 |        92.3  |        88.2  |           4.65 |                   6 |              46.8 |                    0.97 | False              |
+| VIG      | fresh_breakout     |      76 |       243.03 |       237.89 |           2.16 |                   5 |              92.5 |                    0.88 | False              |
+| EWL      | testing_resistance |      76 |        64.06 |        64.39 |          -0.51 |                   5 |              65.9 |                    4.01 | True               |
+| JEPI     | testing_resistance |      73 |        56.07 |        56.44 |          -0.65 |                   5 |              97.6 |                    0.87 | False              |
+| PPH      | fresh_breakout     |      72 |       120.04 |       112.63 |           6.58 |                   4 |              62.7 |                    0.84 | False              |
+| RSP      | fresh_breakout     |      72 |       215.74 |       213.91 |           0.86 |                   4 |              91.3 |                    0.89 | False              |
+| XLB      | below_resistance   |      71 |        51.21 |        53.21 |          -3.76 |                   6 |              86.9 |                  nan    | False              |
 
 ## Top Stock Candidates
 
 | ticker   | setup_state        |   score |   last_close |   resistance |   breakout_pct |   pivot_touch_count |   bb_width_pctile |   breakout_volume_ratio | volume_confirmed   |
 |:---------|:-------------------|--------:|-------------:|-------------:|---------------:|--------------------:|------------------:|------------------------:|:-------------------|
-| AAPL     | fresh_breakout     |      93 |       354.07 |       345.08 |           2.61 |                   5 |              27   |                    0.79 | False              |
-| PGR      | fresh_breakout     |      91 |       235.68 |       223.39 |           5.5  |                   6 |               6   |                    0.75 | False              |
-| AJG      | fresh_breakout     |      87 |       286.82 |       269.27 |           6.52 |                   4 |              24.2 |                    0.8  | False              |
-| MET      | fresh_breakout     |      83 |        99.21 |        98    |           1.23 |                   5 |              38.1 |                    0.95 | False              |
-| DHR      | testing_resistance |      83 |       229.09 |       230.65 |          -0.68 |                   3 |              17.1 |                    0.76 | False              |
-| VRTX     | fresh_breakout     |      82 |       563.92 |       533.67 |           5.67 |                   3 |              39.7 |                    0.83 | False              |
-| WRB      | fresh_breakout     |      82 |        78.72 |        76.82 |           2.48 |                   3 |              61.9 |                    0.55 | False              |
-| AIG      | fresh_breakout     |      78 |        81.24 |        80.5  |           0.92 |                   3 |              27.4 |                    0.7  | False              |
+| PGR      | fresh_breakout     |      98 |       238.7  |       223.39 |           6.86 |                   6 |               5.6 |                    0.77 | False              |
+| AAPL     | fresh_breakout     |      93 |       355.58 |       345.08 |           3.04 |                   5 |              27   |                    0.73 | False              |
+| TMO      | fresh_breakout     |      83 |       685.52 |       642.22 |           6.74 |                   3 |              15.5 |                    0.74 | False              |
+| MET      | fresh_breakout     |      83 |        99.78 |        98    |           1.82 |                   5 |              37.7 |                    0.64 | False              |
+| DHR      | testing_resistance |      83 |       227.35 |       230.65 |          -1.43 |                   3 |              16.7 |                    0.56 | False              |
+| VRTX     | fresh_breakout     |      82 |       564.12 |       533.67 |           5.71 |                   3 |              42.5 |                    0.75 | False              |
+| WRB      | fresh_breakout     |      82 |        79.34 |        76.82 |           3.28 |                   3 |              46.8 |                    0.55 | False              |
+| AIG      | fresh_breakout     |      78 |        82.23 |        80.5  |           2.15 |                   3 |              25.4 |                    0.6  | False              |
 
 Generated by GitHub Actions.
